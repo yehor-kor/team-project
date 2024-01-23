@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c2dbf891.css",
-    "main.js": "./static/js/main.0f9a3b53.js",
-    "static/media/image-parfume.png": "./static/media/image-parfume.731b2eebde9d0214800b.png",
+    "main.css": "./static/css/main.b39dc113.css",
+    "main.js": "./static/js/main.e3704af0.js",
     "static/media/logo-partners-chanel.svg": "./static/media/logo-partners-chanel.cb7be2fc34a5b00ddac74b6e6864b385.svg",
     "static/media/logo-partners-givenchy.svg": "./static/media/logo-partners-givenchy.66b25b36900e68bb56c5d63f90ca63a6.svg",
     "static/media/logo-partners-dg.svg": "./static/media/logo-partners-dg.91bb706df0a8831ba3dcf5b321b4e0c5.svg",
@@ -19,13 +18,13 @@
     "static/media/icon-facebook.svg": "./static/media/icon-facebook.b3804e81e43be2cbee88.svg",
     "static/media/logo-search.svg": "./static/media/logo-search.580a114d1084809f3ee3.svg",
     "static/media/tool-arrow.svg": "./static/media/tool-arrow.b5b7d6f96a58b94776f6.svg",
-    "static/media/tool-circle-black.svg": "./static/media/tool-circle-black.4892133a277fabc702f983345e6e9f97.svg",
-    "static/media/tool-circle-gray.svg": "./static/media/tool-circle-gray.06b4d02e30543b1b1f56eca07d28fd81.svg",
-    "main.c2dbf891.css.map": "./static/css/main.c2dbf891.css.map",
-    "main.0f9a3b53.js.map": "./static/js/main.0f9a3b53.js.map"
+    "static/media/tool-circle-black.svg": "./static/media/tool-circle-black.4892133a277fabc702f9.svg",
+    "static/media/tool-circle-gray.svg": "./static/media/tool-circle-gray.06b4d02e30543b1b1f56.svg",
+    "main.b39dc113.css.map": "./static/css/main.b39dc113.css.map",
+    "main.e3704af0.js.map": "./static/js/main.e3704af0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2dbf891.css",
-    "static/js/main.0f9a3b53.js"
+    "static/css/main.b39dc113.css",
+    "static/js/main.e3704af0.js"
   ]
 }
