@@ -1,7 +1,13 @@
 import './Main.scss';
+import { Slider } from '../Slider';
 import logoHeart from '../../img/logo-heart.svg';
 import logoBag from '../../img/logo-bag.svg';
-import { Slider } from '../Slider';
+import logoPartner1 from '../../img/logo-partners-dg.svg';
+import logoPartner2 from '../../img/logo-partners-ga.svg';
+import logoPartner3 from '../../img/logo-partners-givenchy.svg';
+import logoPartner4 from '../../img/logo-partners-pcd.svg';
+import logoPartner5 from '../../img/logo-partners-sl.svg';
+import logoPartner6 from '../../img/logo-partners-chanel.svg';
 
 export const Main: React.FC = () => (
   <main className="Main">
@@ -48,6 +54,54 @@ export const Main: React.FC = () => (
       </nav>
     </section>
 
-    <Slider />
+    <Slider
+      images={[
+        {
+          path: '../../img/image-parfume.png',
+          id: 1,
+        },
+        {
+          path: '../../img/image-parfume.png',
+          id: 2,
+        },
+        {
+          path: '../../img/image-parfume.png',
+          id: 3,
+        },
+        {
+          path: '../../img/image-parfume.png',
+          id: 4,
+        },
+        {
+          path: '../../img/image-parfume.png',
+          id: 5,
+        },
+      ]}
+    />
+
+    <section className="Main__partners">
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        <img src={logoPartner1} alt="1" />
+      </a>
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        <img src={logoPartner2} alt="2" />
+      </a>
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        <img src={logoPartner3} alt="3" />
+      </a>
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        <img src={logoPartner4} alt="4" />
+      </a>
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        <img src={logoPartner5} alt="5" />
+      </a>
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        <img src={logoPartner6} alt="6" />
+      </a>
+    </section>
+
+    <div className="Main__line">
+      <hr />
+    </div>
   </main>
 );

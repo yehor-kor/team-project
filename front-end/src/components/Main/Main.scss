@@ -60,6 +60,23 @@
       background-color: #000;
     }
   }
+
+  &__partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0 132px;
+  }
+
+  &__line {
+    padding: 0 25px;
+
+    hr {
+      border: 1px solid #000;
+    }
+  }
 }
 
 .input {
