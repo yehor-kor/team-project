@@ -1,18 +1,31 @@
 {
   "files": {
-    "main.css": "./static/css/main.723d262e.css",
-    "main.js": "./static/js/main.e794899b.js",
+    "main.css": "./static/css/main.c2dbf891.css",
+    "main.js": "./static/js/main.0f9a3b53.js",
+    "static/media/image-parfume.png": "./static/media/image-parfume.731b2eebde9d0214800b.png",
+    "static/media/logo-partners-chanel.svg": "./static/media/logo-partners-chanel.cb7be2fc34a5b00ddac74b6e6864b385.svg",
+    "static/media/logo-partners-givenchy.svg": "./static/media/logo-partners-givenchy.66b25b36900e68bb56c5d63f90ca63a6.svg",
+    "static/media/logo-partners-dg.svg": "./static/media/logo-partners-dg.91bb706df0a8831ba3dcf5b321b4e0c5.svg",
+    "static/media/logo-partners-pcd.svg": "./static/media/logo-partners-pcd.c2c6873a4b4ecbea2cb48a8118609f1b.svg",
+    "static/media/logo-partners-sl.svg": "./static/media/logo-partners-sl.dd5d9b47ba8d852e5ab4b353e2a389f2.svg",
+    "static/media/logo-partners-ga.svg": "./static/media/logo-partners-ga.ac28f839a4e84f7e873217cdd4e9a19f.svg",
     "static/media/logo-bag.svg": "./static/media/logo-bag.8ff2c4a2e971e1298ac90a7cd49bbb78.svg",
+    "static/media/icon-instagram.svg": "./static/media/icon-instagram.0ee19c132dab78b376d6.svg",
     "static/media/logo-heart.svg": "./static/media/logo-heart.5045f384bb56d19511b85144db8b020d.svg",
+    "static/media/icon-twitter.svg": "./static/media/icon-twitter.199e20438339db61c772.svg",
     "index.html": "./index.html",
+    "static/media/icon-linkedin.svg": "./static/media/icon-linkedin.00286d132042bfb3a688.svg",
     "static/media/account.svg": "./static/media/account.396905ec9c8747b5ac45a9dc49b3ed40.svg",
+    "static/media/icon-facebook.svg": "./static/media/icon-facebook.b3804e81e43be2cbee88.svg",
     "static/media/logo-search.svg": "./static/media/logo-search.580a114d1084809f3ee3.svg",
-    "static/media/arrow.svg": "./static/media/arrow.b5b7d6f96a58b94776f6.svg",
-    "main.723d262e.css.map": "./static/css/main.723d262e.css.map",
-    "main.e794899b.js.map": "./static/js/main.e794899b.js.map"
+    "static/media/tool-arrow.svg": "./static/media/tool-arrow.b5b7d6f96a58b94776f6.svg",
+    "static/media/tool-circle-black.svg": "./static/media/tool-circle-black.4892133a277fabc702f983345e6e9f97.svg",
+    "static/media/tool-circle-gray.svg": "./static/media/tool-circle-gray.06b4d02e30543b1b1f56eca07d28fd81.svg",
+    "main.c2dbf891.css.map": "./static/css/main.c2dbf891.css.map",
+    "main.0f9a3b53.js.map": "./static/js/main.0f9a3b53.js.map"
   },
   "entrypoints": [
-    "static/css/main.723d262e.css",
-    "static/js/main.e794899b.js"
+    "static/css/main.c2dbf891.css",
+    "static/js/main.0f9a3b53.js"
   ]
 }
