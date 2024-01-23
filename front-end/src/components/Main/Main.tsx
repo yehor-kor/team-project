@@ -57,23 +57,23 @@ export const Main: React.FC = () => (
     <Slider
       images={[
         {
-          path: '../../img/image-parfume.png',
+          path: './img/image-perfume.png',
           id: 1,
         },
         {
-          path: '../../img/image-parfume.png',
+          path: '',
           id: 2,
         },
         {
-          path: '../../img/image-parfume.png',
+          path: '',
           id: 3,
         },
         {
-          path: '../../img/image-parfume.png',
+          path: '',
           id: 4,
         },
         {
-          path: '../../img/image-parfume.png',
+          path: '',
           id: 5,
         },
       ]}

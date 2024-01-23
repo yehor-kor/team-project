@@ -12,9 +12,12 @@
     display: flex;
     gap: 12px;
     transform: translate(-50%, -32px);
-   
-    img {
+
+    button {
+      padding: 0;
       cursor: pointer;
+      border: none;
+      background-color: transparent;
     }
   }
 
@@ -33,6 +36,7 @@
     cursor: pointer;
     width: 52px;
     height: 52px;
+    border: none;
     border-radius: 50%;
     background-image: url('../../img/tool-arrow.svg');
     background-repeat: no-repeat;
@@ -72,5 +76,16 @@
   &__image > img{
     width: 715px;
     height: 500px;
+  }
+}
+
+.page {
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-image: url('../../img/tool-circle-gray.svg');
+
+  &--selected {
+    background-image: url('../../img/tool-circle-black.svg');
   }
 }
