@@ -55,6 +55,11 @@
       color: #fff;
     }
 
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus {
+      transition: background-color 0s 600000s, color 0s 600000s;
+    }
+
     button {
       padding: 10px 16px;
       width: 86px;
@@ -77,8 +82,14 @@
 
   &__icon {
     width: 36px;
-    height: 36px; 
+    height: 36px;
+    transition: all $transition-time;
+    transition-timing-function: ease-out;
     color: transparent;
+
+    &:hover {
+      transform: scale(1.2);
+    }
 
     &--twitter {
       background-image: url('../../img/icon-twitter.svg');
@@ -103,11 +114,8 @@
   }
 
   &__line {
-    padding: 0 100px;
-
-    hr {
-      border: 1px solid #8c8c8c;
-    }
+    margin: 0 100px;
+    border: 1px solid #8c8c8c;
   }
 
   &__copyright {

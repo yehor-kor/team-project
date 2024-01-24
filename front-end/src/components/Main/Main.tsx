@@ -1,5 +1,7 @@
+import React from 'react';
 import './Main.scss';
 import { Slider } from '../Slider';
+import { Card } from '../Card';
 import logoHeart from '../../img/logo-heart.svg';
 import logoBag from '../../img/logo-bag.svg';
 import logoPartner1 from '../../img/logo-partners-dg.svg';
@@ -61,22 +63,23 @@ export const Main: React.FC = () => (
           id: 1,
         },
         {
-          path: '',
+          path: './img/image-perfume.png',
           id: 2,
         },
         {
-          path: '',
+          path: './img/image-perfume.png',
           id: 3,
         },
         {
-          path: '',
+          path: './img/image-perfume.png',
           id: 4,
         },
         {
-          path: '',
+          path: './img/image-perfume.png',
           id: 5,
         },
       ]}
+      timeUpdate={3}
     />
 
     <section className="Main__partners">
@@ -99,9 +102,17 @@ export const Main: React.FC = () => (
         <img src={logoPartner6} alt="6" />
       </a>
     </section>
+    
+    <hr className="Main__line" />
 
-    <div className="Main__line">
-      <hr />
-    </div>
+    <section className="Main__store">
+      <aside className="Main__filters">
+        
+      </aside>
+
+      <div className="Main__store-browse">
+        {Array.from(Array(6)).map(() => <Card />)}
+      </div>
+    </section>
   </main>
 );

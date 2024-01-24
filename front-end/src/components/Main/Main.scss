@@ -71,11 +71,20 @@
   }
 
   &__line {
-    padding: 0 25px;
+    margin: 0 25px;
+    border: 1px solid #000;
+  }
 
-    hr {
-      border: 1px solid #000;
-    }
+  &__store {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 46px 24px 84px;
+  }
+
+  &__store-browse {
+    display: flex;
+    flex-wrap: wrap ;
+  
   }
 }
 

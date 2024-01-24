@@ -8,11 +8,18 @@ type Image = {
 
 type Props = {
   images: Image[];
+  timeUpdate?: number;
 };
 
-export const Slider: React.FC<Props> = ({ images }) => {
+export const Slider: React.FC<Props> = ({ images, timeUpdate }) => {
   const [currentSlide, setCurrentSlide] = useState(1);
   const countSlides = images.length;
+
+  if (timeUpdate) {
+    setTimeout(() => {
+      setCurrentSlide(slide => slide < countSlides ? slide + 1 : 1);
+    }, timeUpdate * 1000);
+  }
 
   useEffect(() => { 
     changeSelectedPage(currentSlide - 1);
@@ -75,7 +82,6 @@ export const Slider: React.FC<Props> = ({ images }) => {
               key={image.id}
               className="page page--selected"
               onClick={() => {
-                changeSelectedPage(index);
                 setCurrentSlide(image.id);
               }}
             >
@@ -85,7 +91,6 @@ export const Slider: React.FC<Props> = ({ images }) => {
               key={image.id}
               className="page"
               onClick={() => {
-                changeSelectedPage(index);
                 setCurrentSlide(image.id);
               }}
             >
