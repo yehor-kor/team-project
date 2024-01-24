@@ -83,22 +83,22 @@ export const Main: React.FC = () => (
     />
 
     <section className="Main__partners">
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.dolcegabbana.com/en-it/" target="_blank" rel="noopener noreferrer">
         <img src={logoPartner1} alt="1" />
       </a>
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.armani.com/en-wx" target="_blank" rel="noopener noreferrer">
         <img src={logoPartner2} alt="2" />
       </a>
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.givenchy.com/" target="_blank" rel="noopener noreferrer">
         <img src={logoPartner3} alt="3" />
       </a>
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="https://parfums.ua/ua/product/christine-darvin-charming-collector-edition-1" target="_blank" rel="noopener noreferrer">
         <img src={logoPartner4} alt="4" />
       </a>
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.ysl.com/en-en" target="_blank" rel="noopener noreferrer">
         <img src={logoPartner5} alt="5" />
       </a>
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.chanel.com/" target="_blank" rel="noopener noreferrer">
         <img src={logoPartner6} alt="6" />
       </a>
     </section>
