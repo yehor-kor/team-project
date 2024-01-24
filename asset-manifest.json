@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.b39dc113.css",
-    "main.js": "./static/js/main.e3704af0.js",
+    "main.css": "./static/css/main.01c75839.css",
+    "main.js": "./static/js/main.d41cfb05.js",
     "static/media/logo-partners-chanel.svg": "./static/media/logo-partners-chanel.cb7be2fc34a5b00ddac74b6e6864b385.svg",
     "static/media/logo-partners-givenchy.svg": "./static/media/logo-partners-givenchy.66b25b36900e68bb56c5d63f90ca63a6.svg",
+    "static/media/image-product.png": "./static/media/image-product.63425aebaafae3b4cabd.png",
     "static/media/logo-partners-dg.svg": "./static/media/logo-partners-dg.91bb706df0a8831ba3dcf5b321b4e0c5.svg",
     "static/media/logo-partners-pcd.svg": "./static/media/logo-partners-pcd.c2c6873a4b4ecbea2cb48a8118609f1b.svg",
     "static/media/logo-partners-sl.svg": "./static/media/logo-partners-sl.dd5d9b47ba8d852e5ab4b353e2a389f2.svg",
@@ -11,20 +12,22 @@
     "static/media/logo-bag.svg": "./static/media/logo-bag.8ff2c4a2e971e1298ac90a7cd49bbb78.svg",
     "static/media/icon-instagram.svg": "./static/media/icon-instagram.0ee19c132dab78b376d6.svg",
     "static/media/logo-heart.svg": "./static/media/logo-heart.5045f384bb56d19511b85144db8b020d.svg",
-    "static/media/icon-twitter.svg": "./static/media/icon-twitter.199e20438339db61c772.svg",
+    "static/media/icon-heart.svg": "./static/media/icon-heart.d0e2385f498e426b8e2a.svg",
     "index.html": "./index.html",
+    "static/media/icon-twitter.svg": "./static/media/icon-twitter.199e20438339db61c772.svg",
     "static/media/icon-linkedin.svg": "./static/media/icon-linkedin.00286d132042bfb3a688.svg",
     "static/media/account.svg": "./static/media/account.396905ec9c8747b5ac45a9dc49b3ed40.svg",
     "static/media/icon-facebook.svg": "./static/media/icon-facebook.b3804e81e43be2cbee88.svg",
+    "static/media/icon-star.svg": "./static/media/icon-star.db848e7b3816303d7f858487f837dfd8.svg",
     "static/media/logo-search.svg": "./static/media/logo-search.580a114d1084809f3ee3.svg",
-    "static/media/tool-arrow.svg": "./static/media/tool-arrow.b5b7d6f96a58b94776f6.svg",
+    "static/media/tool-arrow.svg": "./static/media/tool-arrow.b5b7d6f96a58b94776f6d1391f4a3b35.svg",
     "static/media/tool-circle-black.svg": "./static/media/tool-circle-black.4892133a277fabc702f9.svg",
     "static/media/tool-circle-gray.svg": "./static/media/tool-circle-gray.06b4d02e30543b1b1f56.svg",
-    "main.b39dc113.css.map": "./static/css/main.b39dc113.css.map",
-    "main.e3704af0.js.map": "./static/js/main.e3704af0.js.map"
+    "main.01c75839.css.map": "./static/css/main.01c75839.css.map",
+    "main.d41cfb05.js.map": "./static/js/main.d41cfb05.js.map"
   },
   "entrypoints": [
-    "static/css/main.b39dc113.css",
-    "static/js/main.e3704af0.js"
+    "static/css/main.01c75839.css",
+    "static/js/main.d41cfb05.js"
   ]
 }
