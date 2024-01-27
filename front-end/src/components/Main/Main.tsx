@@ -11,17 +11,6 @@ import logoPartner6 from '../../img/logo-partners-chanel.svg';
 
 export const Main: React.FC = () => (
   <main className="Main">
-    <section className="Main__catalog">
-      <nav className="Main__categories">
-        <a href="/" className="Main__link">Women's perfumery</a>
-        <a href="/" className="Main__link">Men's perfumery</a>
-        <a href="/" className="Main__link">Children's perfumery</a>
-        <a href="/" className="Main__link">New</a>
-        <a href="/" className="Main__link">Actions</a>
-        <a href="/" className="Main__link">Gift ideas</a>
-      </nav>
-    </section>
-
     <Slider
       images={[
         {
@@ -67,6 +56,17 @@ export const Main: React.FC = () => (
       <a href="https://www.chanel.com/" target="_blank" rel="noopener noreferrer">
         <img src={logoPartner6} alt="6" />
       </a>
+    </section>
+
+    <section className="Main__catalog">
+      <nav className="Main__categories">
+        <a href="/" className="Main__link">Women's perfumery</a>
+        <a href="/" className="Main__link">Men's perfumery</a>
+        <a href="/" className="Main__link">Children's perfumery</a>
+        <a href="/" className="Main__link">New</a>
+        <a href="/" className="Main__link">Actions</a>
+        <a href="/" className="Main__link">Gift ideas</a>
+      </nav>
     </section>
     
     <hr className="Main__line" />
