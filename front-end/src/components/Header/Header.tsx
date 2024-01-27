@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss';
+import logoPerfume from '../../img/logo-perfume.svg';
 import logoAccount from '../../img/account.svg';
 import logoHeart from '../../img/logo-heart.svg';
 import logoBag from '../../img/logo-bag.svg';
@@ -26,7 +27,9 @@ export const Header: React.FC = () => (
     </section>
 
     <section className="Header__panel">
-      <a href="/" className="Header__logo">PerfuMe</a>
+      <a href="/" className="Header__logo">
+        <img src={logoPerfume} alt="Logo PerfuMe" />
+      </a>
 
       <div className="input--search">
         <input
