@@ -14,11 +14,11 @@ export const Rate: React.FC<Props> = ({ countStars, countReviews }) => (
   <div className="Rate">
     {Array
       .from('x'.repeat(countStars))
-      .map(() => <img src={starSelected} alt="Star" className="Rate__star" />)
+      .map((_el, i) => <img key={i} src={starSelected} alt="Star" className="Rate__star" />)
     }
     {Array
       .from('x'.repeat(COMPONENT_STARS_COUNT - countStars))
-      .map(() => <img src={starDefault} alt="Star" className="Rate__star" />)
+      .map((_el, i) => <img key={i} src={starDefault} alt="Star" className="Rate__star" />)
     }
     {countReviews &&
       <div className="Rate__reviews">({countReviews})</div>

@@ -2,8 +2,6 @@ import React from 'react';
 import './Main.scss';
 import { Slider } from '../Slider';
 import { Card } from '../Card';
-import logoHeart from '../../img/logo-heart.svg';
-import logoBag from '../../img/logo-bag.svg';
 import logoPartner1 from '../../img/logo-partners-dg.svg';
 import logoPartner2 from '../../img/logo-partners-ga.svg';
 import logoPartner3 from '../../img/logo-partners-givenchy.svg';
@@ -14,38 +12,6 @@ import logoPartner6 from '../../img/logo-partners-chanel.svg';
 export const Main: React.FC = () => (
   <main className="Main">
     <section className="Main__catalog">
-      <div className="Main__panel">
-        <a href="/" className="Main__logo">PerfuMe</a>
-
-        <div className="input--search">
-          <input
-            className='input'
-            type="text"
-            placeholder='Hey, what are you looking for?'
-          />
-        </div>
-
-        <a href="/" className='Main__language-select'>
-          Eng
-        </a>
-
-        <a href="/">
-          <img
-            className='Main__icon'
-            src={logoHeart}
-            alt="Heart"
-          />
-        </a>
-
-        <a href="/">
-          <img
-            className='Main__icon Main__icon--w-34'
-            src={logoBag}
-            alt="Bag"
-          />
-        </a>
-      </div>
-
       <nav className="Main__categories">
         <a href="/" className="Main__link">Women's perfumery</a>
         <a href="/" className="Main__link">Men's perfumery</a>
@@ -59,23 +25,23 @@ export const Main: React.FC = () => (
     <Slider
       images={[
         {
-          path: './img/image-perfume.png',
+          path: './img/image-slide-1.png',
           id: 1,
         },
         {
-          path: './img/image-perfume.png',
+          path: './img/image-slide-2.png',
           id: 2,
         },
         {
-          path: './img/image-perfume.png',
+          path: './img/image-slide-3.png',
           id: 3,
         },
         {
-          path: './img/image-perfume.png',
+          path: './img/image-slide-4.png',
           id: 4,
         },
         {
-          path: './img/image-perfume.png',
+          path: './img/image-slide-5.png',
           id: 5,
         },
       ]}
@@ -111,7 +77,7 @@ export const Main: React.FC = () => (
       </aside>
 
       <div className="Main__store-browse">
-        {Array.from(Array(6)).map(() => <Card />)}
+        {Array.from(Array(6)).map((_el, i) => <Card key={i} />)}
       </div>
     </section>
   </main>

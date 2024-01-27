@@ -11,26 +11,34 @@ type Props = {
   timeUpdate?: number;
 };
 
-export const Slider: React.FC<Props> = ({ images, timeUpdate }) => {
+export const Slider: React.FC<Props> = ({ images, timeUpdate = 1 }) => {
   const [currentSlide, setCurrentSlide] = useState(1);
   const countSlides = images.length;
 
-  if (timeUpdate) {
-    setTimeout(() => {
-      setCurrentSlide(slide => slide < countSlides ? slide + 1 : 1);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide(slide => {
+        if (slide >= countSlides) {
+          changeSelectedPage(0);
+          return 1;
+        } else {
+          changeSelectedPage(slide);
+          return slide + 1;
+        }
+      });
     }, timeUpdate * 1000);
-  }
 
-  useEffect(() => { 
-    changeSelectedPage(currentSlide - 1);
+    return () => clearInterval(interval);
   });
 
   const handleClickBack = () => {
     setCurrentSlide(slide => slide > 1 ? slide - 1 : countSlides);
+    changeSelectedPage(currentSlide);
   };
 
   const handleClickNext = () => {
     setCurrentSlide(slide => slide < countSlides ? slide + 1 : 1);
+    changeSelectedPage(currentSlide);
   };
 
   const changeSelectedPage = (index: number) => {
